@@ -7,6 +7,8 @@
         "first-contentful-paint": ["error", { "maxNumericValue": 1 }]
       },
       "upload": {
+        "serverBaseUrl": "https://lhci.haijin666.top"
+        
       },
       "server": {
       },
