@@ -11,6 +11,7 @@ jobs:
           urls: |
             https://www.sciencedirect.com
             https://www.elsevier.cn
+            https://www.google.com
           budgetPath: ./budget.json # test performance budgets
           configPath: './lighthouserc.json' # custom Lighthouse configuration
           uploadArtifacts: true # save results as an action artifacts
