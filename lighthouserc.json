@@ -1,13 +1,13 @@
 {
     "ci": {
       "collect": {
-        "numberOfRuns": 5
+        "numberOfRuns": 5,
+        "psiStrategy": "desktop"
       },
       "assert": {
         "first-contentful-paint": ["error", { "maxNumericValue": 1 }]
       },
       "upload": {
-        "serverBaseUrl": "https://lhci.haijin666.top"
       },
       "server": {
       },
