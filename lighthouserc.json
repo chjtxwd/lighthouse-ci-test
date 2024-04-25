@@ -1,17 +1,16 @@
 {
-    "ci": {
-      "collect": {
-        "numberOfRuns": 5,
-        "psiStrategy": "desktop"
-      },
-      "assert": {
-        "first-contentful-paint": ["error", { "maxNumericValue": 1 }]
-      },
-      "upload": {
-      },
-      "server": {
-      },
-      "wizard": {
+  "ci": {
+    "collect": {
+      "numberOfRuns": 5,
+      "settings": {
+        "preset": "desktop"
       }
-    }
+    },
+    "assert": {
+      "first-contentful-paint": ["error",{"maxNumericValue": 1}]
+    },
+    "upload": {},
+    "server": {},
+    "wizard": {}
   }
+}
