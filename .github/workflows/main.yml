@@ -1,7 +1,5 @@
 name: Lighthouse CI
 on:
-  schedule:
-    - cron: '*/5 * * * *' # every 5 minutes
   workflow_dispatch:
 
 
