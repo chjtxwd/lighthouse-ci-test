@@ -6,7 +6,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      
+      - name: install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' 
+
+      - name: install chrome
+        uses: browser-actions/setup-chrome@latest
 
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v11
