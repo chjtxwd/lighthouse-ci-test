@@ -18,6 +18,6 @@ jobs:
           budgetPath: ./budget.json # test performance budgets
           configPath: './lighthouserc.json' # custom Lighthouse configuration
           uploadArtifacts: true # save results as an action artifacts
-          temporaryPublicStorage: true # upload lighthouse report to the temporary storage
+          temporaryPublicStorage: false # upload lighthouse report to the temporary storage
           serverBaseUrl: ${{ secrets.LHCI_SERVER_URL }} # LHCI server base URL
           serverToken: ${{ secrets.LHCI_SERVER_TOKEN }} # LHCI server token
