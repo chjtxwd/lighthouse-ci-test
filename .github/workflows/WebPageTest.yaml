@@ -1,0 +1,17 @@
+name: WebPageTest CI
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: WebPageTest Action
+    steps:
+      - uses: actions/checkout@v4
+    
+      - uses: SpeedCurve-Metrics/speedcurve-test-action@v1.2.2
+        with:
+          api_key: ${{ secrets.SPEEDCURVE_API_KEY }}
+          url_id:
+            123456 # URL IDs can be retrieved from the /v1/sites API endpoint,
+            # or by running the list-sites command with speedcurve-cli.
