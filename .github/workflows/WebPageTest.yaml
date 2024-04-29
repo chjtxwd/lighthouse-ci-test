@@ -13,5 +13,5 @@ jobs:
         with:
           api_key: ${{ secrets.SPEEDCURVE_API_KEY }}
           url_id:
-            786274 # URL IDs can be retrieved from the /v1/sites API endpoint,
+            4017782 # URL IDs can be retrieved from the /v1/sites API endpoint,
             # or by running the list-sites command with speedcurve-cli.
