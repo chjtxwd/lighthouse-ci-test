@@ -1,11 +1,11 @@
-name: WebPageTest CI
+name: speedcurve CI
 on:
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: WebPageTest Action
+    name: speedcurve
     steps:
       - uses: actions/checkout@v4
     
