@@ -1,0 +1,12 @@
+name: performance-test
+on:
+    workflow_dispatch:
+jobs:
+  run-sitespeed:
+    runs-on: ubuntu-latest
+    name: running sitespeed.io
+    steps:
+      - name: Test www.sciencedirect.com
+        uses: chjtxwd/performance-test@v0.0.0.1
+        with:
+          URL: https://www.sciencedirect.com
