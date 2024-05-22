@@ -7,6 +7,6 @@ jobs:
     name: running sitespeed.io
     steps:
       - name: Test www.sciencedirect.com
-        uses: chjtxwd/performance-test@v0.0.1
+        uses: chjtxwd/performance-test@main
         with:
           URL: https://www.sciencedirect.com
